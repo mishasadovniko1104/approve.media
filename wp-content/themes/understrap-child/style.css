@@ -1,0 +1,20 @@
+/*
+Theme Name: Моя дочерняя understrap
+Template: understrap
+
+Не обязательные параметры:
+Theme URI: http://understrap.com/
+Description: Дочерняя тема для темы understrap
+Author: M
+Author URI: http://understrap.com/m/
+Version: 1.0
+*/
+
+/* импортируем стили родительской темы */
+@import url("../understrap/style.css");
+
+/* Свои дополнительные стили */
+#sales-ajax-form input.ierror{border:1px solid red;}
+.index-block-list-real_property .row{box-shadow: 0 0 5px rgba(0,0,0,0.5); padding: 10px; margin-bottom: 15px;}
+.index-block-list-city_post .row{box-shadow: 0 0 5px rgba(0,0,0,0.5); padding: 10px; margin-bottom: 15px;}
+.single_city_post_row{box-shadow: 0 0 5px rgba(0,0,0,0.5); padding: 10px; margin-bottom: 15px;}
